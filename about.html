@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="./library/font_awesome/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <!-- headeer -->
+        <header class="flex flex-wrap md:flex-nowrap justify-around h-36">
+            <div>
+                <img src="./images/pp.png" class="h-52 w-52 mt-[-20px] md:block hidden" alt="">
+            </div>
+            <div class="md:hidden block mt-14 ml-[-120px] ">
+            <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[4] mt-3 w-44 p-2 shadow">
+                  <form method="dialog">
+                    <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onclick="Lock">✕</button>
+                  </form>
+                    <li><a href="index.html"></a>HOME</li>
+                    <li><a href="services.html"></a>SERVICES</li>
+                    <li><a href="about.html"></a>ABOUT</li>
+                    <li><a href="#"></a>CATEGORIES</li>
+                    <li><a href="#"></a>BLOG</li>
+            </ul>
+          </div>
+        </div>
+            <div class="md:block hidden">
+                <ul class="flex gap-20 mt-16 font-mono text-xl">
+                    <li><a href="#"></a>HOME</li>
+                    <li><a href="#"></a>SERVICES</li>
+                    <li><a href="#"></a>ABOUT</li>
+                    <li><a href="#"></a>CATEGORIES</li>
+                    <li><a href="#"></a>BLOG</li>
+                </ul>
+            </div>
+            <div class="text-[30px] mt-14 space-x-6 md:block hidden">
+                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <div class="flex mt-14">
+              <button class="btn btn-ghost btn-circle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </button>
+              <button class="btn btn-ghost btn-circle">
+                <div class="indicator">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                  </svg>
+                  <span class="badge badge-xs badge-primary indicator-item"></span>
+                </div>
+              </button>
+            </div>
+     </header>
+</body>
+</html>

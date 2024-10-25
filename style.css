@@ -1,0 +1,77 @@
+.wrapper {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.container{
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.cards{
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03, 0, .99);
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+
+.cards > .row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cards > .row > .icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+
+input{
+    display: none;
+}
+
+
+input:checked + label{
+    width: 800px;
+}
+
+
+.cards[for="c1"] {
+    background-image: url(./images/istockphoto-1441317936-612x612.jpg);
+}
+
+.cards[for="c2"] {
+    background-image: url(./images/pexels-valeriya-965992.jpg);
+}
+
+.cards[for="c3"] {
+    background-image: url(./images/vecteezy_beautiful-perfume-bottle-mockup_49625734.jpg);
+}
+
+.cards[for="c4"] {
+    background-image: url(./images/240_F_775688423_esEvZg8sXkrC1wFIqLaxAV6xTvaNeS1u.jpg);
+}
+
+.cards[for="c5"] {
+    background-image: url(./images/vecteezy_ai-generated-floral-perfumes-on-a-blue-background_37042021.jpg);
+}

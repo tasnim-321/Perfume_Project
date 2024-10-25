@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land of aroma</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="./library/font_awesome/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- headeer -->
+     <header class="flex flex-wrap md:flex-nowrap justify-around h-36">
+            <div>
+                <img src="./images/pp.png" class="h-52 w-52 mt-[-20px] md:block hidden" alt="">
+            </div>
+            <div class="md:hidden block mt-14 ml-[-120px] ">
+            <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[4] mt-3 w-44 p-2 shadow">
+                  <form method="dialog">
+                    <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onclick="Lock">✕</button>
+                  </form>
+                    <li><a href="index.html"></a>HOME</li>
+                    <li><a href="services.html"></a>SERVICES</li>
+                    <li><a href="about.html"></a>ABOUT</li>
+                    <li><a href="#"></a>CATEGORIES</li>
+                    <li><a href="#"></a>BLOG</li>
+            </ul>
+          </div>
+        </div>
+            <div class="md:block hidden">
+                <ul class="flex gap-20 mt-16 font-mono text-xl">
+                    <li><a href="#"></a>HOME</li>
+                    <li><a href="#"></a>SERVICES</li>
+                    <li><a href="#"></a>ABOUT</li>
+                    <li><a href="#"></a>CATEGORIES</li>
+                    <li><a href="#"></a>BLOG</li>
+                </ul>
+            </div>
+            <div class="text-[30px] mt-14 space-x-6 md:block hidden">
+                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <div class="flex mt-14">
+              <button class="btn btn-ghost btn-circle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </button>
+              <button class="btn btn-ghost btn-circle">
+                <div class="indicator">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                  </svg>
+                  <span class="badge badge-xs badge-primary indicator-item"></span>
+                </div>
+              </button>
+            </div>
+     </header>
+     <!-- 1st section -->
+      <section class="bg-black md:h-[600px] flex flex-wrap md:flex-nowrap justify-around">
+        <div class="md:mt-[100px] mt-10">
+            <h1 class="font-semibold text-amber-300 md:text-5xl text-[25px] md:ml-0 ml-3">Welcome to Land of Aroma</h1>
+            <br>
+            <p class="md:w-[600px] w-[300px] md:text-xl text-white font-serif md:ml-0 ml-5">At Land of Aroma, we believe that every fragrance tells a story. 
+                Our carefully crafted perfumes are not just scents; 
+                they are journeys through enchanting landscapes, evoking emotions
+                 and memories that linger long after the last note fades. Each bottle 
+                 captures the essence of nature's finest ingredients, meticulously blended to create unique,
+                  captivating aromas that resonate with your individuality.
+                  <br>
+                  Explore our diverse collection, where every spritz transports you
+                   to a world of elegance and allure. Whether you seek a bold statement
+                    or a subtle whisper, you'll find your signature scent here.
+                     Embrace the art of fragrance and let your spirit roam free in the Land of Aroma.</p>
+        </div>
+        <div class="md:mt-20 mt-10">
+        <video width="800px" height="1000px" autoplay loop muted>
+          <source src="./video/1.mp4" type="video/mp4">
+          <source src="./video/1.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      </section>
+      <!-- 2nd section -->
+       <section class="md:h-[900px]">
+           <h1 class="text-red-700 md:text-[40px] text-[30px] font-bold font-serif md:mt-[100px] mt-[50px] text-center ml-[15px] md:ml-0"> NEW ARRIVAL</h1>
+           <img src="./images/4862.png_300-removebg-preview.png" class="md:mt-[-140px] md:ml-[530px] mt-[-100px]" alt="">
+           <div class="flex flex-wrap md:flex-nowrap justify-around gap-5 md:mt-0 mt-[-70px]">
+            <div class="card bg-red-50 w-[340px] shadow-xl drop-shadow-2xl  ">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./images/240_F_657004225_ruuGIVt1SQdF5RwBbKv4U4b0f68ZlV2Q.jpg"
+                    alt="Shoes"
+                   class="h-[200px]" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-semibold font-serif"> Euphoria by Calvin Klein</h2>
+                  <p class="font-medium"> A sensual and luxurious fragrance, Euphoria opens with pomegranate and persimmon</p>
+                  <p class="mt-3">Regular Price: $80   <br>
+                    Offer Price: $60</p>
+                  <div class="card-actions mt-2">
+                    <button class="btn bg-red-700 text-white w-[110px]">Buy Now</button>
+                    <button class="btn bg-red-700 text-white">Add to card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-red-50 w-[340px] shadow-xl drop-shadow-2xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./images/240_F_765174370_K4P10xXzsHerHNaVZxFeYcwOfAzbXI9x.jpg"
+                    alt="Shoes"
+                   class="h-[200px]" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-semibold font-serif"> Chanel No. 5</h2>
+                  <p class="font-medium">An iconic scent that embodies elegance, Chanel No. 5 
+                    features a complex blend of floral notes, including jasmine and rose,</p>
+                  <p class="mt-3">Regular Price: $130   <br>
+                    Offer Price: $100</p>
+                  <div class="card-actions mt-2">
+                    <button class="btn bg-red-700 text-white w-[110px]">Buy Now</button>
+                    <button class="btn bg-red-700 text-white">Add to card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-red-50 w-[340px] shadow-xl drop-shadow-2xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./images/240_F_832338487_3I7QqeYCJITFrcN0E948RphT2sIFSQUj.jpg"
+                    alt="Shoes"
+                   class="h-[200px]" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-semibold font-serif"> Daisy by Marc Jacobs</h2>
+                  <p class="font-medium">A fresh and floral fragrance that evokes the essence of spring,
+                     Daisy combines wild strawberries and violet leaves</p>
+                  <p class="mt-3">Regular Price: $180   <br>
+                    Offer Price: $160</p>
+                  <div class="card-actions mt-2">
+                    <button class="btn bg-red-700 text-white w-[110px]">Buy Now</button>
+                    <button class="btn bg-red-700 text-white">Add to card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-red-50 w-[340px] shadow-xl drop-shadow-2xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./images/240_F_930911819_gt7RQL6mQaXl5VBPETRfWAJvsU2YkBku.jpg"
+                    alt="Shoes"
+                   class="h-[200px]" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-semibold font-serif">Black Opium by Yves Saint Laurent</h2>
+                  <p class="font-medium">A bold and modern scent, Black Opium is a captivating blend of coffee and vanilla</p>
+                  <p class="mt-3">Regular Price: $250   <br>
+                    Offer Price: $200</p>
+                  <div class="card-actions mt-2">
+                    <button class="btn bg-red-700 text-white w-[110px]">Buy Now</button>
+                    <button class="btn bg-red-700 text-white">Add to card</button>
+                  </div>
+                </div>
+              </div>
+           </div>
+       </section>
+       <!-- 3rd -->
+        <section class="md:h-[450px] h-[800px] mt-10 md:mt-0">
+          <div  class="flex flex-wrap md:flex-nowrap justify-around">
+            <div class="carousel w-[800px] h-[450px] ">
+              <div id="slide1" class="carousel-item relative w-full">
+                <img
+                  src="images/bottle-perfume-with-cinnamon-sticks-table_1293074-229501.avif"
+                  class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide4" class="btn btn-circle">❮</a>
+                  <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide2" class="carousel-item relative w-full">
+                <img
+                  src="images/front-view-cologne-bottle-rotten-tree-branch-isolated-light-blue-background_140725-145204.avif"
+                  class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide1" class="btn btn-circle">❮</a>
+                  <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide3" class="carousel-item relative w-full">
+                <img
+                  src="images/photo-1593487568720-92097fb460fb.jpeg"
+                  class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide2" class="btn btn-circle">❮</a>
+                  <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide4" class="carousel-item relative w-full">
+                <img
+                  src="images/aromatic-allure-perfume-bottle-flower-petals-pastel-beige-background-aesthetic-design-natural-cosmetics-with-aromatic-oil_505557-24359.avif"
+                  class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide3" class="btn btn-circle">❮</a>
+                  <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h1 class="text-orange-800 md:text-[35px] text-[20px] font-bold font-serif md:text-center md:ml-20 mt-3 md:mt-0 ">EXCLUSIVE SIGNATURE ITEMS</h1>
+              <p class="md:text-[30px] text-[19px] md:ml-20 ml-3 font-semibold mt-3 font-mono">CLICK ON THE SLIDER TO SHOW -></p>
+              <p class="md:ml-20 text-orange-800 font-extralight md:text-[25px] text-[20px] ml-10 mt-4">LIMITED STOCK AVILABLE.........</p>
+              <button class="btn btn-wide bg-red-800 hover:bg-blue-950 text-cyan-50 mt-8 md:ml-[80px] ml-[40px] md:text-3xl text-[15px] md:h-[70px] md:w-[450px]">OFFERS ARE GOING ON......</button>
+              <span class="loading loading-ring loading-xs invisible md:visible"></span>
+              <span class="loading loading-ring loading-sm invisible md:visible"></span>
+              <span class="loading loading-ring loading-md invisible md:visible"></span>
+              <span class="loading loading-ring loading-lg invisible md:visible"></span>
+              <div class="form-control">
+                <label class="label cursor-pointer">
+                  <span class="label-text md:text-2xl font-bold  md:w-[300px] w-[200px] text-center rounded-xl border-orange-900 hover:border-blue-950 md:mt-9 md:ml-20 ml-[60px] mt-0 text-[17px] border-[5px]">Ready to order now</span>
+                  <input type="checkbox" checked="checked" class="checkbox mr-[250px] mt-[30px]" />
+                </label>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 4th section  -->
+         <section class="md:h-[650px] h-[1750px]">
+          <div>
+            <h1 class="text-red-700 md:text-[40px] text-[20px] font-bold font-serif md:mt-[100px] text-center">ATTAR COLLECTION</h1>
+            <hr class="border-red-800 md:w-[500px] w-[250px] border-2 md:ml-[500px] ml-12">
+          </div>
+          <div class="md:mt-20 mt-10">
+            <div class=" flex flex-wrap md:flex-nowrap justify-around gap-4 md:gap-0"  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="3000">
+              <div class=" md:w-[350px]  md:h-[400px]">
+                <img src="./attar_images/21.1.webp" alt="Drink" />
+                <button class="rounded-ss-full shadow-lg shadow-black text-white bg-red-700 text-xl w-[200px] h-[30px] ml-[70px] mt-[20px] font-serif hover:bg-blue-900" data-aos="fade-up"
+                data-aos-duration="3000">BUY NOW</button>
+              </div>
+              <div class="md:w-[350px]  md:h-[400px]">
+                <img
+                  src="./attar_images/IMG-1698354281110.jpeg"
+                  alt="Drink" />
+                  <button class="rounded-se-full shadow-lg shadow-black text-white bg-red-700 text-xl w-[200px] h-[30px] ml-[70px] mt-[20px] font-serif hover:bg-blue-900" data-aos="fade-up"
+                  data-aos-duration="3000">BUY NOW</button>
+              </div>
+              <div class=" md:w-[350px]  md:h-[400px]">
+                <img
+                  src="./attar_images/Attar-2_36cadd06-e88e-425c-9ad9-82698d18d71d_1024x1024.webp"
+                  alt="Drink" />
+                  <button class="rounded-ss-full shadow-lg shadow-black  text-white bg-red-700 text-xl w-[200px] h-[30px] ml-[70px] mt-[20px] font-serif  hover:bg-blue-900" data-aos="fade-up"
+                  data-aos-duration="3000">BUY NOW</button>
+              </div>
+              <div class=" md:w-[350px]  md:h-[400px]">
+                <img
+                  src="./attar_images/DhahabPremiumAttarcopy.webp"
+                  alt="Drink" />
+                  <button class="rounded-se-full shadow-lg shadow-black text-white bg-red-700 text-xl w-[200px] h-[30px] ml-[70px] mt-[20px] font-serif  hover:bg-blue-900" 
+                  data-aos="fade-up" data-aos-duration="3000">BUY NOW</button>
+              </div>
+            </div>
+          </div>
+         </section>
+         <!-- 5th section  -->
+          <section class="md:h-[600px]  h-[700px] flex flex-wrap md:flex-nowrap justify-around bg-red-50">
+
+            <div class="mt-20">
+              <video width="700px" height="800px" autoplay loop muted>
+                <source src="./video/vecteezy_perfume-cosmetic-bottle-beauty-spray-fragrance-glass_40459664.mp4" type="video/mp4">
+                <source src="./video/vecteezy_perfume-cosmetic-bottle-beauty-spray-fragrance-glass_40459664.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="md:mt-20">
+            <h1 class="text-orange-800 md:text-[35px] font-bold font-serif ml-2 md:ml-0">REGISTER FOR MEMBERSHIP</h1>
+            <hr class="border-red-800 md:w-[590px] border-2">
+            <label class="input input-bordered flex items-center gap-2 mt-10">
+              <input type="text" class="grow" placeholder="Search" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="h-4 w-4 opacity-70">
+                <path
+                  fill-rule="evenodd"
+                  d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                  clip-rule="evenodd" />
+              </svg>
+            </label>
+            <label class="input input-bordered flex items-center gap-2 mt-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="h-4 w-4 opacity-70">
+                <path
+                  d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+                <path
+                  d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+              </svg>
+              <input type="text" class="grow" placeholder="Email" />
+            </label>
+            <label class="input input-bordered flex items-center gap-2 mt-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="h-4 w-4 opacity-70">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" />
+              </svg>
+              <input type="text" class="grow" placeholder="Username" />
+            </label>
+            <label class="input input-bordered flex items-center gap-2 mt-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="h-4 w-4 opacity-70">
+                <path
+                  fill-rule="evenodd"
+                  d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
+                  clip-rule="evenodd" />
+              </svg>
+              <input type="password" class="grow" value="password" />
+            </label>
+
+            </div>
+          </section>
+          <!-- 6th section  -->
+           <section>
+            <marquee width="100%" direction="right" height="300px">
+              <div class="flex">
+              <img src="./minisize_images/aromatic-perfume-bottle-among-beautiful-260nw-2490375779.webp" class="md:h-[400px] md:w-[400px] alt=">
+              <img src="./minisize_images/perfume-bottle-on-sand-womens-260nw-2500591567.webp"  class="h-[400px] w-[400px] alt=">  
+              <img src="./minisize_images/perfumery-summer-fragrance-concept-made-260nw-2511972229.webp"  class="h-[400px] w-[400px] alt=">
+              <img src="./minisize_images/spa-products-aromatherapy-atmosphere-relax-260nw-2444223041.webp"  class="h-[400px] w-[400px] alt=">
+              <img src="./minisize_images/images.jpeg"  class="h-[400px] w-[400px] alt=">
+              <img src="./minisize_images/images (2).jpeg"  class="h-[400px] w-[400px] alt=">
+            </div>
+            </marquee>
+           </section>
+           <!-- 7th section  -->
+           <section class="h-[580px] bg-red-200 ">
+            <div class="wrapper">
+              <div class="container md:ml-[150px]">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="cards">
+                  <div class="row">
+                    <div class="icon">1</div>
+
+                  </div>
+                </label>
+
+                <input type="radio" name="slide" id="c2" >
+                <label for="c2" class="cards">
+                  <div class="row">
+                    <div class="icon">2</div>
+
+                  </div>
+                </label>
+
+
+                <input type="radio" name="slide" id="c3" >
+                <label for="c3" class="cards">
+                  <div class="row">
+                    <div class="icon">3</div>
+
+                  </div>
+                </label>
+
+                <input type="radio" name="slide" id="c4" >
+                <label for="c4" class="cards">
+                  <div class="row">
+                    <div class="icon">4</div>
+
+                  </div>
+                </label>
+
+
+                <input type="radio" name="slide" id="c5" >
+                <label for="c5" class="cards">
+                  <div class="row">
+                    <div class="icon">5</div>
+
+                  </div>
+                </label>
+              </div>
+            </div>
+
+
+
+           </section>
+          <!-- footer  -->
+           <footer class="h-[400px]">
+            <div class="footer bg-black text-base-content p-20 ">
+              <nav class="md:ml-56 ml-[50px]">
+                <h6 class="footer-title text-white">Services</h6>
+                <a class="link link-hover  text-white">Branding</a>
+                <a class="link link-hover  text-white" >Design</a>
+                <a class="link link-hover  text-white">Marketing</a>
+                <a class="link link-hover  text-white">Advertisement</a>
+              </nav>
+              <nav class="md:ml-0 ml-[50px]">
+                <h6 class="footer-title  text-white">Company</h6>
+                <a class="link link-hover  text-white">About us</a>
+                <a class="link link-hover  text-white">Contact</a>
+                <a class="link link-hover  text-white">Jobs</a>
+                <a class="link link-hover  text-white">Press kit</a>
+              </nav>
+              <nav class="md:ml-0 ml-[50px]">
+                <h6 class="footer-title  text-white">Legal</h6>
+                <a class="link link-hover  text-white">Terms of use</a>
+                <a class="link link-hover  text-white">Privacy policy</a>
+                <a class="link link-hover  text-white">Cookie policy</a>
+              </nav>
+            </div>
+            
+              <aside class="grid-flow-col items-center">
+                <img src="./images/pp.png"  class="w-[200px] h-[150px]  md:ml-52 ml-12" alt="">
+              </aside>
+              <nav class="md:place-self-center md:justify-self-end mr-80 md:mt-[-100px] md:p-0 p-4 md:ml-0 ml-[100px]">
+                <div class="grid grid-flow-col gap-4">
+                  <a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="fill-current">
+                      <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                    </svg>
+                  </a>
+                  <a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="fill-current">
+                      <path
+                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                    </svg>
+                  </a>
+                  <a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="fill-current">
+                      <path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </nav>
+            
+           </footer> 
+
+           <!-- aos  -->
+           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+           <script>
+            AOS.init();
+          </script>
+</body>
+</html>
